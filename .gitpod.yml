@@ -15,6 +15,9 @@ tasks:
       yarn install &&
       rake db:create
     command: >
+      bundle install &&
+      yarn install &&
+      rake db:create
       rails server -b 0.0.0.0
 
 vscode:
