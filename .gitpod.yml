@@ -19,7 +19,7 @@ tasks:
       yarn install &&
       rake db:create
       gem install solargraph
-      rails server -b 0.0.0.0
+      ./bin/dev
 
 vscode:
   extensions:
