@@ -1,9 +1,9 @@
 <nav class="navbar navbar-light bg-light">
   <div class="container">
-    <%= link_to "Sample App", '#', id: "logo", class: "navbar-brand" %>
+    <%= link_to "Sample App", root_path, class: "navbar-brand" %>
       <ul class="nav ms-auto mb-2">
-        <li class="nav-item"><%= link_to "Home", '#', class: "nav-link" %></li>
-        <li class="nav-item"><%= link_to "Help", '#', class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to "Home", root_path, class: "nav-link" %></li>
+        <li class="nav-item"><%= link_to "Help", help_path, class: "nav-link" %></li>
         <li class="nav-item"><%= link_to "Log in", '#', class: "nav-link" %></li>
       </ul>
   </div>
