@@ -13,12 +13,12 @@ tasks:
   - init: >
       bundle install &&
       yarn install &&
-      rake db:create
+      rake db:create &&
+      bundle install
     command: >
       bundle install &&
       yarn install &&
-      rake db:create
-      gem install solargraph
+      rake db:create &&
       ./bin/dev
 
 vscode:
